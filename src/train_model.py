@@ -93,7 +93,7 @@ def main():
     (OUTPUT_DIR / "classification_report.txt").write_text(report, encoding="utf-8")
 
     print("\nSaved model:", MODEL_PATH)
-    print("Saved evaluation files in outputs/")
+    print("Saved evaluation files in outputs!")
 
 if __name__ == "__main__":
     main()
